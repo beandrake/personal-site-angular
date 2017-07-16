@@ -1,0 +1,68 @@
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #4169e1;
+}
+
+.nav-top-left {
+  float: left;
+}
+
+.nav-top-right {
+  float: right;
+}
+
+
+li {
+  list-style: none;         /* removes bullets */
+  display: inline-block;    /* allows the elements to be side-by-side */
+  padding-top: 7px;
+  padding-bottom: 4px;
+}
+
+.nav-top-left li {
+  margin-left: 12px;
+}
+
+.nav-top-right li {
+  margin-left: 40px;
+}
+
+.nav-top-right li:last-child {
+  margin-right: 12px;
+}
+
+
+/* ------------------------------------------
+                    LINKS
+   ------------------------------------------ */
+
+.nav-top-left a:link,
+.nav-top-left a:visited {
+}
+
+.nav-top-right a:link,
+.nav-top-right a:visited {
+  text-transform: uppercase;
+}
+
+a:link,
+a:visited,
+.nav-top-fake li a{
+  text-decoration: none;
+
+  color: #fffaf0;
+  font-weight: 300;
+  /*font-size: 90%;*/
+
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid #fffaf0;
+}
+
