@@ -12,24 +12,84 @@
   height: 100vh;
 }
 
-.pretentious-description ul{
+
+.banner {
+  /* as a group, these vertically center the element */
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+
+  width: 100%;
+
+  /*background-color: rgba(28, 255, 0, 0.51);*/
+}
+
+.text-block {
   margin-left: 10%;
-  padding: 20px 0;
+  display: inline-block;
+  padding: 10px;
+  float: left;
+
+  /* as a group, these vertically center the element */
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+
+  /*background-color: rgba(255, 0, 0, 0.51);*/
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+
+  /*background-color: rgba(65, 105, 225, 0.51);*/
+}
+
+
+
+/* line that appears after heading */
+.separator {
+  display: block;
+  height: 1px;
+  width: 200px;
+  background-color: white;
+
+  /* need content, but we don't want to show anything, so we make it a space */
+  content: " ";
+
+  /* centers it */
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+
+
+
+
+ul{
+  text-align: center;
+
+  /*background-color: rgba(65, 105, 225, 0.51);*/
+}
+
+li {
+  font-size: 200%;
+  font-weight: 100;
+  color: white;
+  padding: 0 10px;
+
   display: inline-block;
 }
 
-.pretentious-description li {
-  font-size: 600%;
-  font-weight: 100;
-  color: white;
-  padding: 5px 0;
-}
-
-.pretentious-description img {
+img {
   display: inline-block;
   float: right;
   border-radius: 50%;
   margin-right: 10%;
-  margin-top: 100px;
   width: 330px;
 }
