@@ -1,0 +1,35 @@
+.background {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);
+
+  /* finds a way to show as much of the image as possible */
+  background-size: cover;
+  background-position: center;
+
+  /* instead of showing the whole image, we scroll past the image */
+  background-attachment: fixed;
+
+  /* 100% of viewport */
+  height: 100vh;
+}
+
+.pretentious-description ul{
+  margin-left: 10%;
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.pretentious-description li {
+  font-size: 600%;
+  font-weight: 100;
+  color: white;
+  padding: 5px 0;
+}
+
+.pretentious-description img {
+  display: inline-block;
+  float: right;
+  border-radius: 50%;
+  margin-right: 10%;
+  margin-top: 100px;
+  width: 330px;
+}
