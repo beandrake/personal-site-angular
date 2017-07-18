@@ -55,8 +55,8 @@ h1 {
 .separator {
   display: block;
   height: 1px;
-  width: 200px;
-  background-color: white;
+  width: 300px;
+  border-bottom: 1px solid white;
 
   /* need content, but we don't want to show anything, so we make it a space */
   content: " ";
