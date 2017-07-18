@@ -1,5 +1,5 @@
 .background {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url(../../assets/img/berry-van-der-velden-32818.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);
 
   /* finds a way to show as much of the image as possible */
   background-size: cover;

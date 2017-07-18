@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  variable;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onScroll(event: Event) {
+    // explicit typecast so that browser knows target is of type...
+    this.variable = (<HTMLInputElement>event.target).value;
+    // console.log(event);
   }
 
 }

@@ -1,6 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+/* An open-source CSS that makes CSS look the same regardless of browser. */
+/*@import url('assets/vendors/css/normalize.css');*/
+/* for some reason using this adds vertical scrolls bars to many elements, diagnose after critical functionality is implemented*/
+
+
+/* Open-source CSS that makes a responsive grid. */
+@import url('assets/vendors/css/grid.css');
+
+/* Open-source icon fonts. */
+@import url('assets/vendors/css/ionicons.min.css');
+
+/* The Lato font, hosted by Google Fonts */
+@import url('http://fonts.googleapis.com/css?family=Lato:100,200,300,400,300italic');
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -21,16 +39,5 @@
   overflow-x: hidden;
 }
 
-
-
-/* this commonly-used class clears the "float" property after the element clearfix is in*/
-.clearfix {zoom: 1}
-.clearfix:after {
-  content: ".";
-  clear: both;
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
 
 
