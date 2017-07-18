@@ -8,6 +8,7 @@ import { NavTopComponent } from './nav-top/nav-top.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjectsComponent } from './projects/projects.component';
     NavTopComponent,
     AboutComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
