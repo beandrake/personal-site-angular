@@ -54,8 +54,9 @@ a:link,
 a:visited,
 .nav-top-fake li a{
   text-decoration: none;
+
+  font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
-  /*font-size: 90%;*/
 
   color: white;
 
