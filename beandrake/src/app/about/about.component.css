@@ -4,17 +4,22 @@
                Introduction Text
    ------------------------------------------ */
 
-
-/* line that appears after heading */
 .space-at-top {
   height: 20px;
 }
 
+
 .introduction{
+  width: 100%;
+
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 15%;
+
   border-left: 1px solid #4169e1;
   padding-left: 30px;
+
+  border-right: 1px solid #4169e1;
+  padding-right: 30px;
 }
 
 p {

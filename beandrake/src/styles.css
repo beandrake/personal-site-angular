@@ -30,7 +30,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 
-  color: #555555;
+  color: #444;
 
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-weight: 400;
@@ -44,4 +44,26 @@
 }
 
 
+h2 {
+  /*color: #4169e1;*/
 
+  font-size: 200%;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* this is an orange line that appears after h2 headings */
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #4169e1;
+
+  /* need content, but we don't want to show anything, so we make it a space */
+  content: " ";
+
+  /* centers it */
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

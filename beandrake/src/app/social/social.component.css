@@ -1,0 +1,33 @@
+
+.social-links {
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;         /* removes bullets */
+  display: inline-block;    /* allows the elements to be side-by-side */
+
+  padding: 10px;
+}
+
+.ion-social-linkedin,
+.ion-social-github{
+  font-size: 300%;
+
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.ion-social-linkedin:hover,
+.ion-social-linkedin:active {
+  color: #0077B5;
+}
+
+.ion-social-github:hover,
+.ion-social-github:active {
+  color: #24292e;
+}
