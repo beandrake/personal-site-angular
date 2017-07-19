@@ -1,5 +1,14 @@
+
+/* The Josefin Sans font, hosted by Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
+
+
+
 .background {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);
+  /*background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);*/
+  /*background-image: linear-gradient(to right, rgb(0, 31, 62), rgba(32, 79, 193, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);*/
+  /*background-image: linear-gradient(to right, rgb(0, 15, 30), rgba(0, 15, 30, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);*/
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 15, 30, 0.7)), url(../../assets/vendors/img/berry-van-der-velden-32818.jpg);
 
   /* finds a way to show as much of the image as possible */
   background-size: cover;
@@ -25,7 +34,7 @@
   /*background-color: rgba(28, 255, 0, 0.51);*/
 }
 
-.text-block {
+.nameplate {
   margin-left: 10%;
   display: inline-block;
   padding: 10px;
@@ -41,8 +50,9 @@
 }
 
 h1 {
-  font-size: 300%;
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
   font-weight: 100;
+  font-size: 355%;
   color: white;
   text-align: center;
 
@@ -78,8 +88,9 @@ ul{
 }
 
 li {
-  font-size: 200%;
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
   font-weight: 100;
+  font-size: 235%;
   color: white;
   padding: 0 10px;
 
