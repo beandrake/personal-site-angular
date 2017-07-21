@@ -1,3 +1,3 @@
-# personal-website
+# personal-site-angular
 
-Repo for my personal website made with Angular.
+My personal website made with Angular.
