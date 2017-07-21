@@ -17,6 +17,7 @@ li {
 .ion-social-linkedin,
 .ion-social-github{
   font-size: 300%;
+  /*color: #4169e1;*/
 
   -webkit-transition: color 0.3s;
   transition: color 0.3s;

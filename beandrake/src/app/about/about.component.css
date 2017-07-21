@@ -29,14 +29,13 @@ p {
   border-right: 1px solid #ddd;
 }
 
-.goal {
-}
 
 .goal p{
   text-align: center;
   font-size: 120%;
   color: #4169e1;
 }
+
 
 .goal p:first-child {
   padding-top: 20px;
